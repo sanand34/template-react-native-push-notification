@@ -1,0 +1,11 @@
+rootProject.name = 'myapp'
+include ':@cryptoticket_react-native-push-notification'
+project(':@cryptoticket_react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/@cryptoticket/react-native-push-notification/android')
+
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+includeUnimodulesProjects()
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+include ':app'
