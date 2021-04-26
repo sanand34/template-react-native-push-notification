@@ -5,10 +5,6 @@
 ```
 yarn install 
 ```
-1. Link package
-```
-npx react-native link @cryptoticket/react-native-push-notification 
-```
 
 2. Following [this](https://firebase.google.com/docs/android/setup) tutorial make the following:
 - add generated `google-services.json` file to `android/app` folder
