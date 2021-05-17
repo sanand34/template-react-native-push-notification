@@ -1,4 +1,6 @@
 # Reat Native Push Notification template
+
+![Alt text](./qhwb.gif)
  
 ## How to install
 1. Install npm package
