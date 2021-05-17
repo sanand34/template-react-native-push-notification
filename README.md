@@ -302,13 +302,6 @@ New:
 5. Now you can get deep link in your app via [React Native Linking library](https://reactnative.dev/docs/linking).
 
 
-## How to run example folder
-1. Inside the `example` folder run:
-```
-npm install
-```
-2. Following [this tutorial](https://firebase.google.com/docs/android/setup) generate `google-services.json` and add it to `example/android/app` folder.
-
 ## Troubleshooting
 - **java.lang.IllegalStateException: GeneratedAppGlideModuleImpl is implemented incorrectly. If you've manually implemented this class, remove your implementation. The Annotation processor will generate a correct implementation.**
 
